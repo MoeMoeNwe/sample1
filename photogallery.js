@@ -1,0 +1,15 @@
+/*Name this external file gallery.js*/
+
+function upDate(previewPic){
+   document.getElementById('image').innerHTML=previewPic.alt;
+  document.getElementById('image').style.background = "url('"+previewPic.src+"')";
+
+  
+	}
+
+function unDo(){
+		document.getElementById('image').innerHTML="Hover an Image";
+        
+      document.getElementById('image').style.background ="#8e68ff";
+
+	}
